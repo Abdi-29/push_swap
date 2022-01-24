@@ -6,7 +6,7 @@
 /*   By: abba <abba@student.codam.nl>                 +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2022/01/13 16:26:07 by abba          #+#    #+#                 */
-/*   Updated: 2022/01/24 20:36:55 by abba          ########   odam.nl         */
+/*   Updated: 2022/01/24 21:40:10 by abba          ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,6 +82,6 @@ int	main(int argc, char **argv)
 		free_node(&stack_a);
 	else
 		sort_big_stack(stack_a, stack_b);
-	system("leaks push_swap");
+	// system("leaks push_swap");
 	return (0);
 }

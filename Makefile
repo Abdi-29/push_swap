@@ -21,7 +21,7 @@ LIBFT_DIR = ./libft
 LIBFT = $(LIBFT_DIR)/libft.a
 
 CFLAGS = -Wall -Werror -Wextra
-DEBUG =  #-fsanitize=address -g 
+DEBUG =  -fsanitize=address -g 
 
 all: $(NAME)
 
